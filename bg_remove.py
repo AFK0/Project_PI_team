@@ -4,6 +4,7 @@ from PIL import Image
 from io import BytesIO
 import re
 
+!pip3 install numpy==1.24
 
 st.set_page_config(layout="wide", page_title="Image Background Remover")
 
