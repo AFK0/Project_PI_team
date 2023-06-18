@@ -3,6 +3,7 @@ from rembg import remove
 from PIL import Image
 from io import BytesIO
 import re
+import numpy as np
 
 
 st.set_page_config(layout="wide", page_title="Image Background Remover")
